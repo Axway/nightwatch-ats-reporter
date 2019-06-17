@@ -1,0 +1,45 @@
+{
+  "name": "@axway/nightwatch-ats-reporter",
+  "version": "1.0.0",
+  "description": "A custom reporter that enables saving of Nightwatch test results in ATS DB",
+  "private": true,
+  "main": "index.js",
+  "homepage": "https://axway.github.io/nightwatch-ats-reporter/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Axway/nightwatch-ats-reporter.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "automation",
+    "browser",
+    "reporter",
+    "test",
+    "results",
+    "ats",
+    "axway"
+  ],
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE.md",
+    "index.js"
+  ],
+  "author": {
+    "name": "Axway"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "axios": "^0.19.0",
+    "form-data": "^2.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jsonfile": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./test/start"
+  }
+}
