@@ -30,7 +30,7 @@ module.exports = {
 ### Add the `--reporter` option to Nightwatch run command. Example:
 
 ```sh
-node ./node_modules/nightwatch/bin/runner --reporter node_modules/nightwatch-ats-reporter
+node ./node_modules/nightwatch/bin/runner --reporter node_modules/@axway/nightwatch-ats-reporter
 ```
 
 ## Development
