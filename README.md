@@ -47,6 +47,10 @@ const file = 'test/results_all.json';
 
 To run without debugging, type `npm run start` in terminal.
 
+## Known issues
+
+- Uploading screenshots is not working. Currently in Nightwatch `0.9.21` results output object does not contain the screenshots file names. Reporter is not tested yet with Nightwatch latest version `1.1.12`.
+
 ## Copyright
 
 Copyright (c) 2019 Axway Software SA and its affiliates. All rights reserved.
