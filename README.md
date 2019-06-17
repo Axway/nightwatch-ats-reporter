@@ -13,7 +13,7 @@ npm install @axway/nightwatch-ats-reporter --save-dev
 ```sh
 npm install git+ssh://git@github.com:Axway/nightwatch-ats-reporter.git --save-dev
 ```
-You must run the command in a shell that is authenticated to git.ecd.axway.int
+You must run the command in a shell that is authenticated to github.com
 
 2. Create a configuration file for Axway ATS HTTP DB Logger with name `.ats.config` and put it in project root folder:
 
