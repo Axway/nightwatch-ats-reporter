@@ -1,10 +1,12 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # Nightwatch ATS reporter
 
-A custom reporter for Nightwatch Javascript browser automation (https://nightwatchjs.org/). This reporter allows you to push test results from a Nightwatch test run into ATS Test Explorer database using ATS HTTP DB logger API(https://axway.github.io/ats-httpdblogger/swagger/index.html).
+A custom reporter for Nightwatch Javascript browser automation [https://nightwatchjs.org/](https://nightwatchjs.org/). This reporter allows you to push test results from a Nightwatch test run into ATS Test Explorer database using [ATS HTTP DB logger API](https://axway.github.io/ats-httpdblogger/swagger/index.html).
 
 ## How to setup
 
-1. Install the package through NPM:
+### Install the package through NPM:
 
 ```sh
 npm install @axway/nightwatch-ats-reporter --save-dev
@@ -15,7 +17,7 @@ npm install git+ssh://git@github.com:Axway/nightwatch-ats-reporter.git --save-de
 ```
 You must run the command in a shell that is authenticated to github.com
 
-2. Create a configuration file for Axway ATS HTTP DB Logger with name `.ats.config` and put it in project root folder:
+### Create a configuration file for Axway ATS HTTP DB Logger with name `.ats.config` and put it in project root folder:
 
 ```javascript
 module.exports = {
@@ -30,7 +32,8 @@ module.exports = {
 };
 ```
 
-3. Add the `--reporter` option to Nightwatch run command. Example:
+### Add the `--reporter` option to Nightwatch run command. Example:
+
 ```sh
 node ./node_modules/nightwatch/bin/runner --reporter node_modules/nightwatch-ats-reporter
 ```
