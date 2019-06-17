@@ -11,11 +11,6 @@ A custom reporter for Nightwatch Javascript browser automation [https://nightwat
 ```sh
 npm install @axway/nightwatch-ats-reporter --save-dev
 ```
-**Note** This reporter is not published yet to NPM, instead you can install it from this github repository:
-```sh
-npm install git+ssh://git@github.com:Axway/nightwatch-ats-reporter.git --save-dev
-```
-You must run the command in a shell that is authenticated to github.com
 
 ### Create a configuration file for Axway ATS HTTP DB Logger with name `.ats.config` and put it in project root folder:
 
