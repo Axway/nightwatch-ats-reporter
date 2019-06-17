@@ -32,8 +32,20 @@ module.exports = {
 
 3. Add the `--reporter` option to Nightwatch run command. Example:
 ```sh
-babel-node ./node_modules/nightwatch/bin/runner --reporter node_modules/nightwatch-ats-reporter
+node ./node_modules/nightwatch/bin/runner --reporter node_modules/nightwatch-ats-reporter
 ```
+
+## Development
+
+For local development, checkout the project and run `npm install` first. Dev environment can run against real ATS HTTP DB Logger instance or a mock client. If your IDE is VisualStudio Code, open 'Debug' (Ctrl+Shift+D) and choose between `Start real` and `Start mock` accordingly. For real instance you will need ATS HTTP DB Logger service and an `.ats.config` file with proper configurations. For both configurations, the test results are taken from `/test/results_all.json`. To change the test results file, locate and change this line in `test/start.js`:
+
+```javascript
+.......
+const file = 'test/results_all.json';
+.......
+```
+
+To run without debugging, type `npm run start` in terminal.
 
 ## Copyright
 
