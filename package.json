@@ -2,12 +2,12 @@
   "name": "@axway/nightwatch-ats-reporter",
   "version": "1.0.0",
   "description": "A custom reporter that enables saving of Nightwatch test results in ATS DB",
-  "private": true,
+  "private": false,
   "main": "index.js",
   "homepage": "https://axway.github.io/nightwatch-ats-reporter/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Axway/nightwatch-ats-reporter.git"
+    "url": "git+https://github.com/Axway/nightwatch-ats-reporter.git"
   },
   "keywords": [
     "nightwatch",
@@ -28,6 +28,12 @@
   "author": {
     "name": "Axway"
   },
+  "maintainers": [
+    {
+      "name": "Plamen Dzhorev",
+      "email": "pdzhorev@axway.com"
+    }
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "app-root-path": "^2.2.1",
