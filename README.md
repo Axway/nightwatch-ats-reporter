@@ -2,7 +2,7 @@
 
 # Nightwatch ATS reporter
 
-A custom reporter for Nightwatch Javascript browser automation [https://nightwatchjs.org/](https://nightwatchjs.org/). This reporter allows you to push test results from a Nightwatch test run into ATS Test Explorer database using [ATS HTTP DB logger](https://github.com/Axway/ats-httpdblogger).
+A custom reporter for Nightwatch Javascript browser automation [https://nightwatchjs.org/](https://nightwatchjs.org/). This reporter allows you to push test results from a Nightwatch test run into [ATS Test Explorer](https://github.com/Axway/ats-testexplorer) database using [ATS HTTP DB logger](https://github.com/Axway/ats-httpdblogger).
 
 ## How to setup
 

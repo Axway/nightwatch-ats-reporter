@@ -63,3 +63,4 @@ typings/
 # configuration files
 .ats.config
 
+reports/
