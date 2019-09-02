@@ -1,6 +1,6 @@
 {
   "name": "@axway/nightwatch-ats-reporter",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A custom reporter that enables saving of Nightwatch test results in ATS DB",
   "private": false,
   "main": "index.js",
