@@ -20,6 +20,7 @@ module.exports = {
   dbName: "HTTP_TESTS",
   dbUser: "admin",
   dbPassword: "password",
+  dbPort: "1433",
   dbLoggerUrl: "http://localhost:8080/ats-httpdblogger-4.1.0-SNAPSHOT/service/logger",
   productName: "HTTP Application",
   versionName: "1.0.0",
@@ -29,8 +30,16 @@ module.exports = {
 
 ### Add the `--reporter` option to Nightwatch run command. Example:
 
+#### Nightwatch 0.9.21
+
 ```sh
 node ./node_modules/nightwatch/bin/runner --reporter node_modules/@axway/nightwatch-ats-reporter
+```
+
+#### Nightwatch 1.2.x
+
+```sh
+node ./node_modules/nightwatch/bin/runner --reporter node_modules/@axway/nightwatch-ats-reporter/index.js
 ```
 
 ## Development
@@ -47,7 +56,8 @@ To run without debugging, type `npm run start` in terminal.
 
 ## Known issues
 
-- Uploading screenshots is not working. Currently in Nightwatch `0.9.21` results output object does not contain the screenshots file names. Reporter is not tested yet with Nightwatch latest version `1.1.12`.
+- Uploading screenshots is not working. Currently in _Nightwatch_ `0.9.21` results output object does not contain the screenshots file names.
+- _Nightwatch_ `1.2.4` - suite timestamp is empty, no way to get the start time of the test run. Reporter runtime will use current time as test run start.
 
 ## Copyright
 
